@@ -81,7 +81,7 @@ notan_extra = { workspace = true, optional = true }
 notan_random = { workspace = true, optional = true }
 
 [features]
-default = ["backend", "log", "draw", "random", "glsl-to-spirv"]
+default = ["backend", "log", "draw", "random", "shaderc"]
 backend = ["notan_backend"]
 log = ["notan_log"]
 glyph = ["notan_glyph"]
